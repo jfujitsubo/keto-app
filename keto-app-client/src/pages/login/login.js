@@ -9,7 +9,8 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 class Login extends Component {
     render() {
         return (
-            <Container className="App">
+        <header className="jumbotron my-4">
+            <Container className = "App">
         <h2>Sign In</h2>
         <Form className="form">
           <Col>
@@ -37,6 +38,7 @@ class Login extends Component {
           <Button>Submit</Button>
         </Form>
       </Container>
+      </header>
         );
     }
 }

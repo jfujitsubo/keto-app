@@ -18,7 +18,7 @@ export const Jumbotron = () => (
                     
                 </Col>
               </Row>
-  <a href="#" className="btn btn-primary btn-lg">Add your own Meal</a>
+  <a href="#" className="btn btn-dark">Add your own Meal</a>
 </header>
 );
 
