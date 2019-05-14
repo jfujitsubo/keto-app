@@ -5,11 +5,11 @@ export const Meals = () => (
   <div className="card h-100">
      <img className="card-img-top" src="http://placehold.it/500x325" alt="" />
      <div className="card-body">
-       <h4 className="card-title">Meal Name</h4>
+       <h6 className="card-title">Meal Name</h6>
        <Row>
        <Col size = "md-6">
        <p className="card-text">
-       <ul>
+       <ul className = "list-inline">
                <li>Cals:</li>
                <li>Fats:</li>
                <li>Proteins:</li>
@@ -18,7 +18,7 @@ export const Meals = () => (
        </p>
        </Col>
        <Col size = "md-6">
-           <a href="#" className="btn btn-primary">Add to Daily Macros</a>
+           <a href="#" className="btn btn-primary">Add</a>
        </Col>
        </Row>
      </div>

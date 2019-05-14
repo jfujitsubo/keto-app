@@ -11,16 +11,22 @@ class Main extends Component {
         <Container fluid>
     <Jumbotron />
             <Row>
-            <Col size = "md-3 sm-12">
+            <Col size = "md-2 sm-12">
             <Meals />
             </Col>
-            <Col size = "md-3 sm-12">
+            <Col size = "md-2 sm-12">
             <Meals />
             </Col>
-            <Col size = "md-3 sm-12">
+            <Col size = "md-2 sm-12">
             <Meals />
             </Col>
-            <Col size = "md-3 sm-12">
+            <Col size = "md-2 sm-12">
+            <Meals />
+            </Col>
+            <Col size = "md-2 sm-12">
+            <Meals />
+            </Col>
+            <Col size = "md-2 sm-12">
             <Meals />
             </Col>
             </Row>

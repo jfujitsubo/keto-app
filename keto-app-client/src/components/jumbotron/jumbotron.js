@@ -3,7 +3,7 @@ import { Col, Row, Container, Card } from "../grid";
 
 export const Jumbotron = () => (
   <header className="jumbotron my-4">
-  <h1 className="display-3">Welcome User</h1>
+  <h1 className="display-4">Welcome User</h1>
               <Row>
                 <Col size = "md-3">
                     <Card />
