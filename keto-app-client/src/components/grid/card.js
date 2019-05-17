@@ -8,7 +8,7 @@ export const Card = () => (
         <Col size = "md-6">
         <p className="card-text">
         <ul>
-                <li>Cals:</li>
+                <li>Cals: </li>
                 <li>Fats:</li>
                 <li>Proteins:</li>
                 <li>Carbs:</li>

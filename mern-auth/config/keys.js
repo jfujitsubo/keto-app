@@ -1,3 +1,5 @@
 module.exports = {
-    mongoURI: "mongodb+srv://jonathanfuji:psp123!!@ketopaldb-fn1os.mongodb.net/test?retryWrites=true"
+    mongoURI: "mongodb+srv:ASD0`//jonathanfuji:psp123!!@ketopaldb-fn1os.mongodb.net/test?retryWrites=true",
+    secretOrKey: "secret"
 };
+
