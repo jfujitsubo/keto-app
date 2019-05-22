@@ -9,6 +9,19 @@ import {
 } from "./types";
 // Register User
 
+/*export const userProfile = (userData, history) => dispatch => {
+    axios
+      .post("/api/users/profile", userData)
+      .then(res => history.push("/main")) // re-direct to login on successful register
+      .catch(err =>
+        dispatch({
+          type: GET_ERRORS,
+          payload: err.response.data
+        })
+      );
+  };*/
+
+
 export const registerUser = (userData, history) => dispatch => {
   axios
     .post("/api/users/register", userData)

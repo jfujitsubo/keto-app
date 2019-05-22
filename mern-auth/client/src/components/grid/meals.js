@@ -5,7 +5,7 @@ export const Meals = () => (
   <div className="card h-100">
      <img className="card-img-top" src="http://placehold.it/500x325" alt="" />
      <div className="card-body">
-       <h6 className="card-title">Meal Name</h6>
+       <h6 className="card-title">Meals</h6>
        <Row>
        <Col size = "md-6">
        <p className="card-text">

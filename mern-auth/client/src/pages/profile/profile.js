@@ -6,8 +6,43 @@ import { connect } from "react-redux";
 import classnames from "classnames";
 
 class Profile extends Component {
-    render() {
-        return (
+ /* constructor() {
+  super();
+  this.state = {
+    height: "",
+    weight: "",
+    errors: {}
+  };
+}
+
+componentWillReceiveProps(nextProps) {
+  if (nextProps.errors) {
+    this.setState({
+      errors: nextProps.errors
+    });
+  }
+}
+
+  onChange = e => {
+    this.setState({ [e.target.id]: e.target.value });
+  };
+
+  onSubmit = e => {
+    e.preventDefault();
+
+    const newStats = {
+      height: this.state.email,
+      weight: this.state.password
+    };
+
+    this.props.userProfile(newStats, this.props.history);
+  };*/
+  
+  render() {
+        
+    //const { errors } = this.state;
+      
+    return (
           <div className="container">
         <div style={{ marginTop: "4rem" }} className="row">
           <div className="col s8 offset-s2">
@@ -24,20 +59,20 @@ class Profile extends Component {
         <form /*noValidate onSubmit={this.onSubmit}*/>
               <div className="input-field col s12">
                 <input
-                  /*onChange={this.onChange}*/
-                  //value=""{this.state.height}
+                  //onChange={this.onChange}
+                  //value={this.state.height}
                   //error={errors.height}
                   //id="height"
                   //type="height"
                   //className={classnames("", {
-                    //invalid: errors.height || errors.heightnotfound
+                  //invalid: errors.height || errors.heightnotfound
                   //})}
                 />
                 <label htmlFor="height">Height</label>
-                <span className="red-text">
-                  {/*{errors.height}
-                  {errors.heightnotfound}*/}
-                </span> 
+               {/* <span className="red-text">
+                  {errors.height}
+                  {errors.heightnotfound}}
+                  </span> */}
               </div>
               <div className="input-field col s12">
                 <input

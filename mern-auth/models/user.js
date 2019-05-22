@@ -15,6 +15,12 @@ const UserSchema = new Schema({
     type: String,
     required: true
   },
+  height: {
+    type: Number, 
+  },
+  weight: {
+    type: Number,
+  },
   date: {
     type: Date,
     default: Date.now
