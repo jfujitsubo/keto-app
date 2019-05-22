@@ -18,7 +18,7 @@ export const Meals = () => (
        </p>
        </Col>
        <Col size = "md-6">
-           <a href="#" className="btn btn-primary">Add</a>
+           <a href="" className="btn btn-small waves-effect waves-light hoverable blue lighten-2 text-white">Add</a>
        </Col>
        </Row>
      </div>

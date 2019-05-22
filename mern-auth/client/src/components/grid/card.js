@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "../grid";
+import { Col } from "../grid";
 
 export const Card = () => (
    <div className="card h-100">
