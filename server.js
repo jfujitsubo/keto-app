@@ -6,6 +6,9 @@ const users = require("./routes/api/users");
 
 const app = express();
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 // Bodyparser middleware
 app.use(
   bodyParser.urlencoded({
