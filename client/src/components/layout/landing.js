@@ -22,10 +22,7 @@ class Landing extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                className="btn btn-large waves-effect waves-light hoverable blue lighten-2 text-white"
-              >
-                Register
-              </Link>
+                className="btn btn-large waves-effect waves-light hoverable blue lighten-2 text-white">Register</Link>
             </div>
             <div className="col s6">
               <Link
@@ -35,10 +32,7 @@ class Landing extends Component {
                   borderRadius: "3px",
                   letterSpacing: "1.5px"
                 }}
-                className="btn btn-large waves-effect waves-light hoverable grey lighten-5"
-              >
-                Log In
-              </Link>
+                className="btn btn-large waves-effect waves-light hoverable grey lighten-5">Log In</Link>
             </div>
           </div>
         </div>
